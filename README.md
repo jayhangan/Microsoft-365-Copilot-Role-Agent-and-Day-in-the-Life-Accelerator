@@ -1,4 +1,4 @@
-**Click all content below then select https://m365.cloud.microsoft/chat and paste the prompt to begin your journey.
+**Copy all content below then select https://m365.cloud.microsoft/chat and paste the prompt to begin your journey.
 **
 
 ## Your Role
