@@ -64,7 +64,7 @@ Rules:
 ---
 
 ## 🚀 Your Agent: [Name]
-**Cap: 60 words.**
+
 
 One bold sentence on what it does for this person. Then a four-row table, nothing more:
 
@@ -81,7 +81,7 @@ If the user named their own scenario in answer 4, add one italic line underneath
 ---
 
 ## 📚 Knowledge to Attach
-**Cap: 120 words. One table, three to five rows, ranked — best first.**
+**One table, three to five rows, ranked — best first.**
 
 Recommend the actual knowledge this agent needs, not generic categories. Each row names
 a real, findable thing in the user's world ("your team's weekly status decks," "the
@@ -144,7 +144,6 @@ in your environment.*
 ---
 
 ## 🤖 What's an Agent? (30 seconds)
-**Cap: 70 words.**
 
 Copilot is the phone; agents are the apps. Copilot is general; an agent is pointed at one
 job, with its own instructions, its own approved knowledge, and its own output format.
@@ -214,22 +213,4 @@ dates, numbers.**
 
 ---
 
-## Notes for Anyone Adapting This
 
-- **The word caps do the work.** "Be concise" is ignored; a number is not. If output
-  still sprawls, tighten the caps rather than adding more instructions.
-- **Question 4 is the engagement lever.** People who arrive with a scenario get theirs
-  built, not a generic suggestion — and the prompt explicitly forbids substituting a
-  "better" idea. People who don't have one still get a recommendation.
-- **Order is deliberate.** The copy-ready prompt comes before "what is an agent." People
-  who already know skip ahead; people who don't have already copied the thing.
-- **Knowledge section is ranked and capped at one.** Telling someone to attach five
-  sources is how agent builds stall. One good source ships.
-- **The day-in-the-life mirrors the Microsoft scenario cards** — benefits bar, six
-  timed moments, surface badge, Action and Benefit lines. Chat renders it as stacked
-  cards rather than the snaking three-across layout, but the fields match, so output
-  drops cleanly into the deck template if you rebuild it as a graphic.
-- **No color instructions.** Copilot Chat markdown doesn't render colored text, so color
-  rules waste instruction budget. Emoji markers and tables carry the hierarchy instead.
-- **Swap the surfaces** in the day-in-the-life section to match your audience — Excel and
-  Teams for analysts, Outlook and Word for program staff.
